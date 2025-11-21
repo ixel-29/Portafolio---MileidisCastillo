@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miledis Castillo | Gastronomy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- NAV -->
+    <nav id="navbar">
+        <div class="logo">MG</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="particles"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-intro">I'm</p>
+                <h1>Mileidis Castillo</h1>
+                <p class="hero-subtitle">Gastronomy</p>
+                <p class="typing-text" id="typingText"></p>
+                <div class="cta-buttons">
+                    <a href="#portfolio" class="btn btn-primary">See Project</a>
+                    <a href="#contact" class="btn btn-secondary">Contact</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/ixel-29" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mileidis-castillo-2b9339375/" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/Mileidisca21362" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/x.mili__28/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="Imagenes/fotodeperfil.png" alt="Mileidis Castillo">
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <h2 class="section-title">ABOUT ME</h2>
+        <div class="about-grid">
+            <div class="about-card">
+                <h3>¿Who I Am?</h3>
+                <p>I am Mileidis Castillo, I am 18 years old and I study tourism. I aspire to study Gastronomy and become a flight attendant. I consider myself disciplined and creative. I like volleyball, dramas, music, and K-pop. I believe in effort, perseverance, and values such as respect and responsibility.</p>
+                <a href="https://drive.google.com/file/d/1sqqt4MHXtHHietUM2kNkL-o7oWu8CwPT/view?usp=sharing" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;" target="_blank">download CV</a>
+            </div>
+            <div class="about-card">
+                <h3>information</h3>
+                <p><strong>Email:</strong> cmileidis243@gmail.com</p>
+                <p><strong>Cellphone:</strong> +507 6303-7383</p>
+                <p><strong>Location:</strong> La Chorrera, Panamá</p>
+                <p><strong>State:</strong> Disponible para Freelance</p>
+            </div>
+            <div class="about-card">
+                <h3>Skills</h3>
+                <div class="skill-bar">
+                    <div class="skill-name"><span>HTML/CSS</span><span>75%</span></div>
+                    <div class="skill-progress"><div class="skill-fill" style="width: 0%" data-width="75%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-name"><span>JavaScript</span><span>70%</span></div>
+                    <div class="skill-progress"><div class="skill-fill" style="width: 0%" data-width="70%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-name"><span>Python</span><span>70%</span></div>
+                    <div class="skill-progress"><div class="skill-fill" style="width: 0%" data-width="70%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-name"><span>Inglés</span><span>75%</span></div>
+                    <div class="skill-progress"><div class="skill-fill" style="width: 0%" data-width="75%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Everyone</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="voluntariado">Volunteering</button>
+            <button class="filter-btn" data-filter="certificaciones">Certifications</button>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="web">
+                <img src="Imagenes/logo.png" alt="Proyecto Web">
+                <div class="portfolio-overlay">
+                    <h3>Web Project</h3>
+                    <p>AGROTEC - Full Web Development</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="voluntariado">
+                <img src="Imagenes/Recliclaje de latas.jpg" alt="Bike School">
+                <div class="portfolio-overlay">
+                    <h3>Ingeniero Tomas Guardia</h3>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="voluntariado">
+                <img src="Imagenes/Techo.jpg" alt="TECHO">
+                <div class="portfolio-overlay">
+                    <h3>TECHO</h3>
+                    <p>Social Volunteering</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="certificaciones">
+                <img src="Imagenes/MS-excel-logo-675.webp" alt="Excel">
+                <div class="portfolio-overlay">
+                    <h3>Excel Certification</h3>
+                    <p>data analysis</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="certificaciones">
+                <img src="Imagenes/Toeic-Cert.jpg" alt="TOEIC">
+                <div class="portfolio-overlay">
+                    <h3>TOEIC certification</h3>
+                    <p>professional English</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="certificaciones">
+                <img src="Imagenes/python.png" alt="Python">
+                <div class="portfolio-overlay">
+                    <h3>Python certification</h3>
+                    <p>advanced programming</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-container">
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">NAME</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>cmileidis243@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+507 6303-7383</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div>
+                        <h4>Location</h4>
+                        <p>La Chorrera, Panamá</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Mileidis Castillo. all rights reserved.</p>
+    </footer>
+
+    <button id="scrollTop"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
